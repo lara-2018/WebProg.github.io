@@ -43,3 +43,89 @@ body {
     hr{
         width: 50%;
     }
+
+/* Login Seite: */
+
+#PasswortMerken {
+    display: flex;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginContent {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#LoginInputÜberschrift {
+    align-self: flex-start;
+}
+
+#LoginButton {
+    background-color: bisque;
+    border-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+#KontoErstellenButton {
+    border-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+#Passwort {
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+#E-Mail {
+    margin-top: 30px;
+}
+
+#ÜberschriftLogin {
+    text-align: center;
+}
+
+#PwVergessen {
+    text-align: center;
+}
+
+#keinKonto {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#passwordField {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+}
+
+
+
