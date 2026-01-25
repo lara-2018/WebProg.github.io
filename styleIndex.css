@@ -1,0 +1,164 @@
+header {
+    text-align: center;
+    background-color: #BDBDBD;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav1 {
+    background-color: #A3A2A2;
+    width: 20%;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    float: left;
+}
+
+#nav2 {
+    background-color: #A3A2A2;
+    width: 20%;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 40px;
+    text-align: center;
+    float: left;
+}
+
+#nav3 {
+    background-color: #A3A2A2;
+    width: 20%;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 40px;
+    text-align: center;
+    float: left;
+}
+
+#nav4 {
+    background-color: #A3A2A2;
+    width: 20%;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 40px;
+    text-align: center;
+    float: left;
+}
+
+#container {
+    position: relative;
+    margin-top: 30px;
+}
+
+#japan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inhalt {
+    width: 40%;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+#kastn1{
+    background-color: #A3A2A2;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 30px;
+}
+
+#kastn2{
+    background-color: #A3A2A2;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 30px;
+}
+
+#kastn3{
+    background-color: #A3A2A2;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 30px;
+}
+
+#kastn4{
+    background-color: #A3A2A2;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 30px;
+}
+
+#kastn5{
+    background-color: #A3A2A2;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 30px;
+}
+
+#kastn6{
+    background-color: #A3A2A2;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 30px;
+}
+
+#Kastengrid1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #BDBDBD;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
