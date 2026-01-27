@@ -6,14 +6,14 @@
     <script src="script.js" defer></script>
     <script src="jquery.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styling.css"/>
+    <link rel="stylesheet" href="styles.css"/>
     <title>Catisland</title>
 </head>
 <body>
     <header>
         <h1>Catisland</h1>
     </header>
-    
+
     <nav>
         <div id="nav1">
         <p>Startseite</p>
@@ -38,9 +38,9 @@
                     <h1 id="ÜberschriftLogin">Login</h1>
                     <input class="input" id="E-Mail" placeholder="Email">
                     <div id="passwordField">
-                        <input class="input" id="Passwort" placeholder="Passwort">
-                        <i class="fa-solid fa-eye"></i>
-                        <i class="fa-solid fa-eye-slash hide"></i>
+                        <input type="password" class="input" id="passwort" placeholder="Passwort" name="passwort">
+                        <i class="fa-solid fa-eye" id="showPassword"></i>
+                        <i class="fa-solid fa-eye-slash hide" id="hidePassword"></i>
                     </div>
                     
 
@@ -64,5 +64,5 @@
         <a href="https://Impressumseite.com">Impressum</a>
     </footer>
 </body>
-
 </html>
+
