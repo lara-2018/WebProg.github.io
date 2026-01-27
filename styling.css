@@ -46,6 +46,8 @@ body {
 
 /* Login Seite: */
 
+/* Login Seite: */
+
 #PasswortMerken {
     display: flex;
 }
@@ -73,6 +75,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 #KontoErstellenButton {
@@ -86,15 +89,8 @@ input {
     padding-bottom: 20px;
 }
 
-.field-icon {
-  float: right;
-  margin-left: -25px;
-  margin-top: -25px;
-  position: relative;
-  z-index: 2;
-}
 
-#Passwort {
+#passwort {
     margin-top: 10px;
     width: 100%;
     box-sizing: border-box; 
@@ -125,6 +121,7 @@ i {
     position: absolute;
     top: 50%;
     right: 4%;
+    cursor: pointer;
 }
 
 
