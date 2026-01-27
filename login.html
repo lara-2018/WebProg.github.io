@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Catisland</title>
+</head>
+<body>
+    <header>
+        <h1>Catisland</h1>
+    </header>
+
+    <nav>
+        <div id="nav1">
+        <p>Startseite</p>
+        </div>
+
+        <div id="nav2">
+        <p>Katzeninseln</p>
+        </div>
+        
+        <div id="nav3">
+        <p>Kontakt</p>
+        </div>
+
+        <div id="nav4">
+       <a href="login.html">login</a>
+        </div>
+    </nav>
+    <main>
+        <div id="container">
+            <div id="login">
+                <div id="loginContent">
+                    <h1 id="ÜberschriftLogin">Login</h1>
+                    <input class="input" id="E-Mail" placeholder="Email">
+                    <div id="passwordField">
+                        <input type="password" class="input" id="passwort" placeholder="Passwort" name="passwort">
+                        <i class="fa-solid fa-eye" id="showPassword"></i>
+                        <i class="fa-solid fa-eye-slash hide" id="hidePassword"></i>
+                    </div>
+                    
+
+                    <div id="PasswortMerken">
+                        <input type="checkbox" name="remember me" id="remember"> 
+                        <p>Passwort merken</p>
+                    </div>
+
+                    <button id="LoginButton">Login</button>
+                    <br>
+                    <a id="PwVergessen">Passwort vergessen?</a>
+                    <p id="keinKonto">du hast noch kein Konto?</p>
+                    <button id="KontoErstellenButton">Konto erstellen</button>
+                </div>   
+            </div>              
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://Datenschutzseite.com">Datenschutz</a>
+        <a href="https://Impressumseite.com">Impressum</a>
+    </footer>
+</body>
+</html>
+
