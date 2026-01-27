@@ -1,37 +1,27 @@
-const NavStartseite = document.getElementById("nav1");
-
-NavStartseite.addEventListener("click", () => {
-        window.open("https://www.youtube.com/watch?v=IxX_QHay02M", "_blank");
-    });
-
-$(".toggle-password").click(function() {
-
-  $(this).toggleClass("fa-eye fa-eye-slash");
-  var input = $($(this).attr("toggle"));
-  if (input.attr("type") == "password") {
-    input.attr("type", "text");
-  } else {
-    input.attr("type", "password");
-  }
-});
-
-
-// let PwInput = $("Passwort").val();
-// let hide = $(".fa-eye").val();
-// let unhide = $(".fa-eye-slash hide").val();
-
-let PwInput = document.getElementById("Passwort");
-let hide = document.getElementById(".fa-eye");
-let unhide = document.getElementById(".fa-eye-slash hide");
+let Zustand = "hide"
+let PwInput = document.getElementById("passwort");
+ let hide = document.querySelector("#hidePassword");
+ let unhide = document.querySelector("#showPassword");
 
 hide.addEventListener("click", () => {
-    hide.style.display = "none";
-    unhide.style.display = "block";
-    PwInput.type = "text";
+  hide.style.display = "none";
+  unhide.style.display = "block";
+  PwInput.type = "text"; //Inhalt zeigen
 })
 
 unhide.addEventListener("click", () => {
-    unhide.style.display = "none";
-    hide.style.display = "block";
-    PwInput.type = "password";
+  unhide.style.display = "none";
+  hide.style.display = "block";
+  PwInput.type = "password"; //Inhalt verbergen
+})
+
+let MailInput = document.getElementById("E-Mail");
+let Login = document.getElementById("LoginButton");
+
+Login.addEventListener("click", () => {
+  if (MailInput.value === "" || PwInput.value === "") { //wenn ein Feld oder beide Felder leer sind
+    alert("Bitte fülle alle Felder aus");
+  } else {
+    alert("Du hast dich erfolreich eingeloggt");
+  }
 })
