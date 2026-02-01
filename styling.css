@@ -128,5 +128,91 @@ i {
     cursor: pointer;
 }
 
+/* Japan Map */
+
+
+
+.map-wrap {
+    background: url(japanmap.png) center no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 825px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.map-dot:hover .dot-content {
+    display: block !important;
+}
+.dot-content {
+    background: rgb(223, 223, 223);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404);
+    /*min-width: 150px;*/
+    text-align: left;
+    display: none;
+    position: relative;
+    transition: transform .6s;
+}
+
+.hoverfieldcontent {
+display: inline-block;
+}
+
+.dot-content:hover {
+    transform: scale(1.5);
+}
+
+.map-dot:hover {
+    background: rgba(0, 200, 0, 0.0);
+}
+
+.map-dot {
+    background: rgba(181, 60, 60, 0.689);
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+
+.map-dot-ainoshima {
+    top: 74%;
+    left: 5%;
+}
+
+.map-dot-aoshima {
+    top: 74%;
+    left: 20%;
+}
+
+.map-dot-manabe {
+    top: 67%;
+    left: 28%;
+}
+
+.map-dot-okishima {
+    top: 59%;
+    left: 44%;
+}
+
+.map-dot-enoshima {
+    top: 54%;
+    left: 69%;
+}
+
+.map-dot-Tashirojima {
+    top: 24%;
+    left: 78%;
+}
+
+
+
 
 
