@@ -160,55 +160,48 @@ body {
 
 /* Japan Map */
 
-
-
 .map-wrap {
     background: url(japanmap.png) center no-repeat;
     background-size: cover;
-    width: 900px;
-    height: 825px;
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     margin: 5% auto;
-    
+    width: 100%; 
+    max-width: 900px;
+    aspect-ratio: 2000 / 1905;  
 }
 
 .map-dot:hover .dot-content {
     display: block !important;
 }
+
 .dot-content {
     background: rgb(223, 223, 223);
     width: fit-content;
     height: fit-content;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404);
-    /*min-width: 150px;*/
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404);    
     text-align: left;
     display: none;
     position: relative;
     transition: transform .6s;
-}
-
-.hoverfieldcontent {
-display: inline-block;
+    z-index: 1;
 }
 
 .dot-content:hover {
     transform: scale(1.5);
 }
 
-.map-dot:hover {
-    background: rgba(0, 200, 0, 0.0);
-}
-
 .map-dot {
     background: rgba(181, 60, 60, 0.689);
     border-radius: 20px;
-    height: 40px;
-    width: 40px;
+    height: 100%;
+    width: 100%;
+    max-height: 40px;
+    max-width: 40px;
     position: absolute;
 }
 
@@ -242,7 +235,17 @@ display: inline-block;
     left: 78%;
 }
 
+@media screen and (max-width: 1024px) {
+       
+    .map-dot:hover .map-dot:active .dot-content {
+        display: block !important;
+    }
 
+    .dot-content:active .dot-content:active {
+        transform: scale(1.5);
+    }
+
+}
 
 
 
