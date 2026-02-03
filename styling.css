@@ -1,32 +1,36 @@
 /*Steckbrief: */
+/* Islands */
 
 body {
-        background-color: lightgrey;
-        font-family:Arial, Helvetica, sans-serif;
-    }
+    background-color: lightgrey;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
-    header {
-        background-color: #808080;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+header {
+    background-color: #808080;
+    justify-content: center;
+}
+#flex {
+    display: flex;
+    flex-direction: row;
+}
 
-    #img {
-        width: 25%;
-        align-self: center;
-        border-radius: 1rem;
-    }
+h1 {
+    text-align: center;
+}
 
-    .Steckbrief {
-        width: 20%;
-        padding: 5rem;
-    }
+#imgislands1 {
+    width: 25%;
+    align-self: center;
+    border-radius: 1rem;
+    margin-left: 5%;
+}
 
-    .Infotext {
-        width: 20%;
-        padding-right: 5rem;
-    }
+#imgislands2 {
+    width: 25%;
+    align-self: center;
+    border-radius: 1rem;
+}
 
     .BoxLayout {
         display: flex;
@@ -34,17 +38,42 @@ body {
         justify-content: center;
         margin: 5rem;
     } 
+.Steckbrief {
+    width: 20%;
+    padding: 5rem;
+}
 
-    footer {
-        background-color: #808080;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+.Infotext {
+    width: 20%;
+    padding-right: 5rem;
 
-    hr{
-        width: 50%;
-    }
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5rem;
+}
+
+footer {
+    background-color: #808080;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+hr{
+    width: 50%;
+}
+
+/* Impressum */
+
+#rechtliches {
+    max-width: 45%;
+    margin-left: 29%;
+    padding-bottom: 5%;
+}
 
 
 /* Login Seite: */
@@ -245,7 +274,27 @@ body {
         transform: scale(1.5);
     }
 
+@media screen and (max-width: 480px) {
+#islands {
+    position: static; 
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
 }
 
+#rechtliches {
+    max-width: 100%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+}
 
-
+@media screen and (min-width: 481px) {
+    #islands {
+        position: static; 
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+}
