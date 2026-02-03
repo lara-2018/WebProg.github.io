@@ -49,80 +49,113 @@ body {
 
 /* Login Seite: */
 
-#PasswortMerken {
-    display: flex;
-}
-
 #login {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left:  20px;
+    padding-right: 20px;;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
+
 
 #loginContent {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px; 
+    padding: 40px;
+    border-radius: 15px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
     display: flex;
     flex-direction: column;
-    width: 40%;
-}
-
-#LoginInputÜberschrift {
-    align-self: flex-start;
-}
-
-#LoginButton {
-    background-color: bisque;
-    border-style: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-#KontoErstellenButton {
-    border-style: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-input {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
-#passwort {
-    margin-top: 10px;
-    width: 100%;
-    box-sizing: border-box; 
-}
-
-#E-Mail {
-    margin-top: 30px;
 }
 
 #ÜberschriftLogin {
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #333;
 }
 
-#PwVergessen {
-    text-align: center;
+
+.input, button {
+    width: 100%; 
+    padding: 15px;
+    margin-bottom: 20px; 
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box; /* Wichtig, damit Padding die Breite nicht sprengt */
 }
 
-#keinKonto {
-    margin-top: 50px;
-    text-align: center;
+
+#LoginButton {
+    background-color: bisque;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+#KontoErstellenButton {
+    background-color: transparent;
+    border: 2px solid bisque;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+#KontoErstellenButton:hover {
+    background-color: bisque;
 }
 
 #passwordField {
     position: relative;
+    width: 100%;
 }
 
-i {
+#passwordField i {
     position: absolute;
     top: 50%;
-    right: 4%;
+    right: 15px;
+    transform: translateY(-50%) translateY(-10px); /* Korrektur für margin-bottom des Inputs */
     cursor: pointer;
+    color: #666;
+}
+
+
+#PasswortMerken {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#PasswortMerken input {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+#PasswortMerken p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+#PwVergessen, #keinKonto {
+    text-align: center;
+    display: block;
+    color: #666;
+    font-size: 0.9em;
+}
+
+#PwVergessen:hover {
+    text-decoration: underline;
+}
+
+#keinKonto {
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 /* Japan Map */
