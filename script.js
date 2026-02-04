@@ -1,3 +1,5 @@
+$(document).ready(function () {
+
 const zurStartseite = document.getElementById("ueberschrift");
 zurStartseite.addEventListener("click", () => {
       window.open("index.html", "_blank");
@@ -35,6 +37,8 @@ zurinselseite.addEventListener("click", () => {
       alert("Du hast dich erfolgreich eingeloggt");
     }
   });
+
+}
 
 
 
