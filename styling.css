@@ -22,8 +22,6 @@ header {
 body {
         background-color: #E3E3E3;
         font-family: "Megrim", system-ui;
-        display: flex;
-        flex-direction: row;
     }
 
 #img {
@@ -333,6 +331,7 @@ hr{
 
 
 }
+
 
 
 
