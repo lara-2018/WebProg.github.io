@@ -1,17 +1,5 @@
-
-
 $(document).ready(function() {
-const zurStartseite = document.getElementById("ueberschrift");
-zurStartseite.addEventListener("click", () => {
-      window.open("index.html", "_blank");
-  });
-  
-
-const zurinselseite = document.getElementById("Box1");
-zurinselseite.addEventListener("click", () => {
-  window.open("Aoshima.html", "_blank");
-});
-  
+ 
   let $pwInput = $("#passwort");
   let $hide = $("#hidePassword");
   let $unhide = $("#showPassword");
@@ -41,6 +29,7 @@ zurinselseite.addEventListener("click", () => {
   });
 
   });
+
 
 
 
