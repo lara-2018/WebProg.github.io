@@ -68,7 +68,7 @@ hr{
 @media screen and (max-width:480 px) {
 header {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
     }
 
@@ -319,6 +319,7 @@ hr{
 
 
 }
+
 
 
 
