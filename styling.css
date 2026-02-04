@@ -65,7 +65,7 @@ hr{
         width: 50%;
     }
 
-@media screen and (max-width:480 px) {
+@media screen and (max-width:480px) {
 header {
         display: flex;
         flex-direction: row;
@@ -313,6 +313,7 @@ hr{
 
 
 }
+
 
 
 
