@@ -38,7 +38,8 @@ zurinselseite.addEventListener("click", () => {
     }
   });
 
-}
+});
+
 
 
 
