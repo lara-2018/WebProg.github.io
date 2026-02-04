@@ -77,20 +77,14 @@ body {
         font-family: "Megrim", system-ui;
     }
 
-#img {
-        width: 25%;
-        align-self: center;
-        border-radius: 1rem;
-    }
-
-#imgislands1 {
+.imgislands1 {
     width: 25%;
     align-self: center;
     border-radius: 1rem;
     margin-left: 5%;
 }
 
-#imgislands2 {
+.imgislands2 {
     width: 25%;
     align-self: center;
     border-radius: 1rem;
@@ -325,6 +319,7 @@ hr{
 
 
 }
+
 
 
 
