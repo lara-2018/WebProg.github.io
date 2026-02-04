@@ -13,7 +13,69 @@
 
 /*Steckbrief: */
 
+@media screen and (min-width:481 px) {
+header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
+body {
+        background-color: #E3E3E3;
+        font-family: "Megrim", system-ui;
+        display: flex;
+        flex-direction: row;
+    }
+
+#img {
+        width: 25%;
+        align-self: center;
+        border-radius: 1rem;
+    }
+
+#imgislands1 {
+    width: 25%;
+    align-self: center;
+    border-radius: 1rem;
+    margin-left: 5%;
+}
+
+#imgislands2 {
+    width: 25%;
+    align-self: center;
+    border-radius: 1rem;
+}    
+
+.Steckbrief {
+        width: 20%;
+        padding: 5rem;
+    }
+
+.Infotext {
+        width: 20%;
+        padding-right: 5rem;
+    }
+
+.BoxLayout {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 5rem;
+    } 
+
+footer {
+        background-color: #79C0C9;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+hr{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:480 px) {
 header {
         display: flex;
         flex-direction: row;
@@ -31,34 +93,47 @@ body {
         border-radius: 1rem;
     }
 
-    .Steckbrief {
+#imgislands1 {
+    width: 25%;
+    align-self: center;
+    border-radius: 1rem;
+    margin-left: 5%;
+}
+
+#imgislands2 {
+    width: 25%;
+    align-self: center;
+    border-radius: 1rem;
+}
+
+.Steckbrief {
         width: 20%;
         padding: 5rem;
     }
 
-    .Infotext {
+.Infotext {
         width: 20%;
         padding-right: 5rem;
     }
 
-    .BoxLayout {
+.BoxLayout {
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin: 5rem;
     } 
 
-    footer {
+footer {
         background-color: #79C0C9;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
-    hr{
+hr{
         width: 50%;
     }
-
+}
 
 /* Login Seite: */
 
@@ -257,5 +332,6 @@ body {
     .dot-content:active .dot-content:active {
         transform: scale(1.5);
     }
+
 
 }
