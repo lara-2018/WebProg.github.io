@@ -99,7 +99,11 @@ body {
         width: 50%;
         padding-right: 5rem;
     }
-  
+
+.BoxLayout {
+        flex-direction: column;
+        margin: 2rem;
+    }
   
 footer {
         background-color: #79C0C9;
@@ -313,6 +317,7 @@ hr{
 
 
 }
+
 
 
 
