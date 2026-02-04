@@ -1,0 +1,261 @@
+.megrim-regular {
+  font-family: "Megrim", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-300 {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Steckbrief: */
+
+
+header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+body {
+        background-color: #E3E3E3;
+        font-family: "Megrim", system-ui;
+    }
+
+#img {
+        width: 25%;
+        align-self: center;
+        border-radius: 1rem;
+    }
+
+    .Steckbrief {
+        width: 20%;
+        padding: 5rem;
+    }
+
+    .Infotext {
+        width: 20%;
+        padding-right: 5rem;
+    }
+
+    .BoxLayout {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 5rem;
+    } 
+
+    footer {
+        background-color: #79C0C9;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    hr{
+        width: 50%;
+    }
+
+
+/* Login Seite: */
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:  20px;
+    padding-right: 20px;;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+#loginContent {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px; 
+    padding: 40px;
+    border-radius: 15px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    display: flex;
+    flex-direction: column;
+}
+
+#ÜberschriftLogin {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+
+.input, button {
+    width: 100%; 
+    padding: 15px;
+    margin-bottom: 20px; 
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box; /* Wichtig, damit Padding die Breite nicht sprengt */
+}
+
+
+#LoginButton {
+    background-color: bisque;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+#KontoErstellenButton {
+    background-color: transparent;
+    border: 2px solid bisque;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+#KontoErstellenButton:hover {
+    background-color: bisque;
+}
+
+#passwordField {
+    position: relative;
+    width: 100%;
+}
+
+#passwordField i {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%) translateY(-10px); /* Korrektur für margin-bottom des Inputs */
+    cursor: pointer;
+    color: #666;
+}
+
+
+#PasswortMerken {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#PasswortMerken input {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+#PasswortMerken p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+#PwVergessen, #keinKonto {
+    text-align: center;
+    display: block;
+    color: #666;
+    font-size: 0.9em;
+}
+
+#PwVergessen:hover {
+    text-decoration: underline;
+}
+
+#keinKonto {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Japan Map */
+
+.map-wrap {
+    background: url(bilder/japanmap.png) center no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    width: 100%; 
+    max-width: 900px;
+    aspect-ratio: 2000 / 1905;  
+}
+
+.map-dot:hover .dot-content {
+    display: block !important;
+}
+
+.dot-content {
+    background: #F0E8C9;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404);    
+    text-align: left;
+    display: none;
+    position: relative;
+    transition: transform .6s;
+    z-index: 1;
+}
+
+.dot-content:hover {
+    transform: scale(1.5);
+}
+
+.map-dot {
+    background: rgba(181, 60, 60, 0.689);
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    max-height: 40px;
+    max-width: 40px;
+    position: absolute;
+}
+
+.map-dot-ainoshima {
+    top: 74%;
+    left: 5%;
+}
+
+.map-dot-aoshima {
+    top: 74%;
+    left: 20%;
+}
+
+.map-dot-manabe {
+    top: 67%;
+    left: 28%;
+}
+
+.map-dot-okishima {
+    top: 59%;
+    left: 44%;
+}
+
+.map-dot-enoshima {
+    top: 54%;
+    left: 69%;
+}
+
+.map-dot-Tashirojima {
+    top: 24%;
+    left: 78%;
+}
+
+@media screen and (max-width: 1024px) {
+       
+    .map-dot:hover .map-dot:active .dot-content {
+        display: block !important;
+    }
+
+    .dot-content:active .dot-content:active {
+        transform: scale(1.5);
+    }
+
+}
