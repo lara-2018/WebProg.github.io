@@ -9,7 +9,6 @@ zurinselseite.addEventListener("click", () => {
   window.open("Aoshima.html", "_blank");
 });
 
-
 let Zustand = "hide"
 let PwInput = document.getElementById("passwort");
  let hide = document.querySelector("#hidePassword");
@@ -64,5 +63,9 @@ Login.addEventListener("click", () => {
     } else {
       alert("Du hast dich erfolgreich eingeloggt");
     }
+    const zurinselseite = document.getElementById("Box1");
+    zurinselseite.addEventListener("click", () => {
+          window.open("Aoshima.html", "_blank");
+      });
   });
 
