@@ -1,15 +1,4 @@
-.megrim-regular {
-  font-family: "Megrim", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
 
-.rubik-300 {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 
 /*Steckbrief: */
 
@@ -292,18 +281,27 @@ hr{
     left: 78%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 480px) {
        
     .map-dot:hover .map-dot:active .dot-content {
-        display: block !important;
+        display: block;
     }
 
     .dot-content:active .dot-content:active {
         transform: scale(1.5);
     }
 
+  /*Rechtliches*/
+
+#rechtliches {
+    max-width: 45%;
+    margin-left: 29%;
+    padding-bottom: 5%;
+}
+
 
 }
+
 
 
 
