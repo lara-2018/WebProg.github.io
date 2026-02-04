@@ -91,7 +91,7 @@ a {
     left: 80px;
 }
 
-.Kastengrid1 {
+.Boxgrid {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,28 +119,28 @@ a {
     font-family: "Megrim", system-ui;
 }
 
-#kastn1{
+#Box1{
     background-image: url(bilder/Aoshima.jpg);
 
 }
 
-#kastn2{
+#Box2{
     background-image: url(bilder/Tajiroshima.jpg);
 }
 
-#kastn3{
+#Box3{
     background-image: url(bilder/Manabeshima.jpg);
 }
 
-#kastn4{
+#Box4{
     background-image: url(bilder/Okishima.jpg);
 }
 
-#kastn5{
+#Box5{
     background-image: url(bilder/ainoshima.jpg);
 }
 
-#kastn6{
+#Box6{
     background-image: url(bilder/manabe\ island.jpg);
 }
 
@@ -155,7 +155,7 @@ footer {
     font-family: "Rubik", sans-serif;
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 480px){
     .Inseln {
         width: 28%; 
         aspect-ratio: 1 / 1; 
@@ -163,7 +163,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 480px){
     #inhalt {
         position: static; 
         width: 90%;
@@ -177,19 +177,20 @@ footer {
     }
 
     .Inseln {
-        width: 40%; 
+        width: 60%; 
         aspect-ratio: 1 / 1;
         margin: 20px 5%;
     }
 }
 
-.Kastengrid1 { visibility: hidden; }
-.Kastengrid1 > * { visibility: visible; }
-.Kastengrid1 > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
-.Kastengrid1:hover > * { opacity: 0.4; transform: scale(0.9); }
-.Kastengrid1 > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+.Boxgrid { visibility: hidden; }
+.Boxgrid > * { visibility: visible; }
+.Boxgrid > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+.Boxgrid:hover > * { opacity: 0.4; transform: scale(0.9); }
+.Boxgrid > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
 
-.Kastengrid1 {
+.Boxgrid {
   display: flex;
   flex-wrap: wrap;
+
 }
