@@ -86,12 +86,11 @@ body {
 
  .Steckbrief, .Infotext {
         width: 100%;
-        padding: 1.5rem;
     }
 
 .BoxLayout {
         flex-direction: column;
-        margin: 2rem;
+
     }
   
 footer {
@@ -306,6 +305,7 @@ hr{
 
 
 }
+
 
 
 
