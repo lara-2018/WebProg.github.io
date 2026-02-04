@@ -50,16 +50,6 @@ hr{
     }
 
 @media screen and (max-width:480px) {
-header {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-body {
-        background-color: #E3E3E3;
-        font-family: "Megrim", system-ui;
-    }
 
 .imgislands1 {
     max-width: 100%;
@@ -301,6 +291,7 @@ hr{
 
 
 }
+
 
 
 
