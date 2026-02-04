@@ -1,3 +1,5 @@
+$(document).ready(function() {
+  
   let $pwInput = $("#passwort");
   let $hide = $("#hidePassword");
   let $unhide = $("#showPassword");
@@ -25,3 +27,6 @@
       alert("Du hast dich erfolgreich eingeloggt");
     }
   });
+
+  });
+
