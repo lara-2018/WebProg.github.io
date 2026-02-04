@@ -24,14 +24,14 @@ body {
         font-family: "Megrim", system-ui;
     }
 
-#imgislands1 {
+.imgislands1 {
     max-width: 25%;
     align-self: center;
     border-radius: 1rem;
     margin-left: 5%;
 }
 
-#imgislands2 {
+.imgislands2 {
     max-width: 25%;
     align-self: center;
     border-radius: 1rem;
@@ -325,6 +325,7 @@ hr{
 
 
 }
+
 
 
 
