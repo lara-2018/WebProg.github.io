@@ -155,7 +155,7 @@ footer {
     font-family: "Rubik", sans-serif;
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 481px){
     .Inseln {
         width: 28%; 
         aspect-ratio: 1 / 1; 
@@ -194,3 +194,4 @@ footer {
   flex-wrap: wrap;
 
 }
+
