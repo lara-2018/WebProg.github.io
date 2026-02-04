@@ -37,14 +37,10 @@ body {
     border-radius: 1rem;
 }    
 
-.Steckbrief {
-        width: 20%;
-        padding: 5rem;
-    }
-
-.Infotext {
-        width: 20%;
-        padding-right: 5rem;
+ .Steckbrief,
+    .Infotext {
+        width: 100%;
+        padding: 1.5rem;
     }
 
 .BoxLayout {
@@ -78,14 +74,14 @@ body {
     }
 
 .imgislands1 {
-    width: 50%;
+    max-width: 50%;
     align-self: center;
     border-radius: 1rem;
     margin-left: 5%;
 }
 
 .imgislands2 {
-    width: 50%;
+    max-width: 50%;
     align-self: center;
     border-radius: 1rem;
 }
@@ -317,6 +313,7 @@ hr{
 
 
 }
+
 
 
 
