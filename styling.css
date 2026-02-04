@@ -114,13 +114,6 @@ body {
         padding-right: 5rem;
     }
 
-.BoxLayout {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin: 5rem;
-    } 
-
 footer {
         background-color: #79C0C9;
         display: flex;
@@ -333,5 +326,6 @@ hr{
 
 
 }
+
 
 
